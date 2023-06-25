@@ -30,7 +30,6 @@ function App() {
                 <Route path="/about" element={<About />}/>
                 <Route path="/user/:login" element={<User />}/>
                 <Route path="/notfound" element={<NotFound />}/>
-                {/* The asterisk is a catch-all for anything typed in that does not exist */}
                 <Route path="/*" element={<NotFound />}/>
               </Routes>
             </main>
